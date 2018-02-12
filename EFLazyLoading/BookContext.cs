@@ -21,6 +21,7 @@ namespace EFLazyLoading
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BookContext>());
             Configuration.LazyLoadingEnabled = false;
+            //kavgam var kader ile kanli piçakli
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
